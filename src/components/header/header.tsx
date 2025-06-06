@@ -4,8 +4,9 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
+import { ScrollButton } from "../scrollButton";
 
-const navLinks = [
+export const navLinks = [
   { name: "Inicio", to: "inicio" },
   { name: "Servicios", to: "servicios" },
   { name: "Proyectos", to: "proyectos" },
@@ -30,7 +31,7 @@ export const Header = () => {
           className="cursor-pointer"
         >
           <Image
-            src="/assets/fondo transparente.png"
+            src="/assets/fondo-transparente.webp"
             alt="Logo"
             width={320}
             height={80}
@@ -46,7 +47,7 @@ export const Header = () => {
               to={link.to}
               smooth={true}
               duration={500}
-              className="text-gray-300 hover:text-gray-50 hover:underline underline-offset-8 cursor-pointer font-semibold text-sm uppercase"
+              className="text-gray-300 hover:text-yellow-600 hover:underline underline-offset-8 cursor-pointer font-semibold text-sm uppercase"
             >
               {link.name}
             </Link>
@@ -54,14 +55,7 @@ export const Header = () => {
         </nav>
 
         {/* CTA */}
-        <Link
-          to="formulario"
-          smooth={true}
-          duration={500}
-          className="hidden cursor-pointer md:inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded-md text-sm transition duration-300"
-        >
-          Solicitar Cotización
-        </Link>
+        <ScrollButton label="Solicitar Cotización" to="contacto" />
 
         {/* Mobile Menu Button */}
         <button
@@ -87,15 +81,12 @@ export const Header = () => {
               {link.name}
             </Link>
           ))}
-          <Link
-            to="formulario"
-            smooth={true}
-            duration={500}
-            onClick={closeMenu}
+
+          <ScrollButton
+            label="Solicitar Cotización"
+            to="contacto"
             className="inline-block w-full text-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded-md text-sm transition duration-300"
-          >
-            Solicitar Cotización
-          </Link>
+          />
         </div>
       )}
     </header>
