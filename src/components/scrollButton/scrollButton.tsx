@@ -15,7 +15,7 @@ export const ScrollButton: React.FC<ScrollButtonProps> = ({
       to={to}
       smooth={smooth}
       duration={duration}
-      className={`hidden cursor-pointer md:inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded-md text-sm transition duration-300 ${className}`}
+      className={`hidden cursor-pointer md:inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded-md text-sm transition duration-300 ${className} uppercase`}
     >
       {label}
     </Link>
