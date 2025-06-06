@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JC Construcciones",
+  title: "JC Construcciones & Servicios",
   description:
     "Empresa líder en sandblasting, mantenimiento industrial y obras civiles.",
 };
