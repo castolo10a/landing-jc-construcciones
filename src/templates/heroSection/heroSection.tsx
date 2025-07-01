@@ -25,11 +25,10 @@ export const HeroSection = () => {
           jc construcciones
         </h1>
         <h2 className="text-yellow-400 text-xl md:text-2xl font-semibold mt-4">
-          Líderes en sandblasting, mantenimiento industrial y obras civiles.
+          Expertos en sandblasting, mantenimiento industrial y obras civiles.
         </h2>
         <p className="text-gray-200 my-4 max-w-2xl text-base md:text-lg">
-          “Más de 20 años de experiencia sirviendo al sector petrolero y de
-          obras civiles en Colombia.”
+          Confianza y experiencia al servicio del sector petrolero e infraestructura nacional.
         </p>
 
         <ScrollButton label="Contáctanos" to="contacto" className="inline-block"/>
