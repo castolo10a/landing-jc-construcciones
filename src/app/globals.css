@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* === Personalización de Swiper === */
+
+.custom-swiper .swiper-pagination {
+  padding-top: 1.5rem; /* 24px de espacio entre las cards y los puntos */
+}
+
+.custom-swiper .swiper-pagination-bullet {
+  background-color:  var(--foreground); /* tailwind zinc-300 */
+  opacity: 1;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #18181b;
+}
+
