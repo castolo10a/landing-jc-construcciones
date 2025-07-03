@@ -13,12 +13,10 @@ export const InfoServices: FC = () => {
     >
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold uppercase">
-          Nuestros Servicios
+          Soluciones técnicas especializadas
         </h2>
         <p className="text-zinc-300 max-w-2xl mx-auto mt-4 mb-10">
-          Portafolio integral de servicios técnicos para los sectores
-          industrial, petrolero y de infraestructura. Ejecutamos proyectos de
-          alta exigencia con calidad, seguridad y cumplimiento.
+          Portafolio de soluciones técnicas para los sectores industrial, petrolero y de infraestructura. Ejecutamos proyectos exigentes con calidad, seguridad y cumplimiento.
         </p>
 
         <div className="grid gap-8 md:grid-cols-3">
