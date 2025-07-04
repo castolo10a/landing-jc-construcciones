@@ -1,3 +1,4 @@
+export * from "./aboutCard";
 export * from "./footer";
 export * from "./header";
 export * from "./scrollButton";
