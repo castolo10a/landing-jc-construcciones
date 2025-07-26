@@ -24,10 +24,10 @@ export const useContactForm = () => {
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
-          name: data.name,
-          email: data.email,
-          phone: data.phone,
-          message: data.message,
+          user_name: data.name,
+          user_email: data.email,
+          user_phone: data.phone,
+          user_message: data.message,
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       ),
