@@ -3,7 +3,7 @@
 Este es un proyecto desarrollado para **JC Construcciones y Servicios**, una empresa dedicada a la ejecución de obras civiles. Se trata de una **landing page profesional, moderna y responsive**, orientada a destacar los servicios, proyectos, trayectoria y datos de contacto de la empresa.
 
 🔗 **Sitio en producción**:  
-👉 https://jcconstrucciones.netlify.app/
+👉 [jcconstrucciones.netlify.app/](https://jc-construcciones.netlify.app/)
 
 ---
 
